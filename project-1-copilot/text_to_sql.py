@@ -40,6 +40,8 @@ def generate_sql(question):
 Business definitions:
 - Win rate = deals with deal_stage 'Won' divided by deals with deal_stage 'Won' or 'Lost'.
 - Revenue or deal value means close_value on deals with deal_stage 'Won'.
+- When filtering on a text column, use the exact values listed in the schema. If the user's wording differs (for example a spelling variation), choose the closest listed value.
+- Data quirk: the product 'GTXPro' in sales_pipeline is spelled 'GTX Pro' in the products table. When joining these two tables, join on REPLACE(sales_pipeline.product, ' ', '') = REPLACE(products.product, ' ', '') so no deals are lost.
 
 Write a single read-only SQLite query that answers this question: {question}
 
