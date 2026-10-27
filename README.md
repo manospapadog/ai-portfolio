@@ -40,4 +40,4 @@ Strategy & Operations leader based in Athens, Greece. Previously Strategy & Oper
 
 **Tools:** SQL, Python, Power BI, n8n / Make / Zapier, Salesforce, HubSpot
 
-📫 [LinkedIn][https://www.linkedin.com/in/manos-papadogiannakis/]· manospapadog@gmail.com
+📫 [LinkedIn](https://www.linkedin.com/in/manos-papadogiannakis/)· manospapadog@gmail.com
