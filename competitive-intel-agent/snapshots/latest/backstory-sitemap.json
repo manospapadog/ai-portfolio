@@ -1,0 +1,1052 @@
+{
+  "id": "backstory-sitemap",
+  "company": "Backstory",
+  "kind": "sitemap",
+  "url": "https://www.backstory.ai/sitemap.xml",
+  "final_url": "https://www.backstory.ai/sitemap.xml",
+  "fetched_at": "2026-10-29T14:22:56+00:00",
+  "is_index": false,
+  "items": [
+    {
+      "url": "https://www.backstory.ai"
+    },
+    {
+      "url": "https://www.backstory.ai/about-us"
+    },
+    {
+      "url": "https://www.backstory.ai/about-us/careers"
+    },
+    {
+      "url": "https://www.backstory.ai/about-us/contact-us"
+    },
+    {
+      "url": "https://www.backstory.ai/ask-now"
+    },
+    {
+      "url": "https://www.backstory.ai/author/aman-sirohi"
+    },
+    {
+      "url": "https://www.backstory.ai/author/calli-millang"
+    },
+    {
+      "url": "https://www.backstory.ai/author/caroline-carney"
+    },
+    {
+      "url": "https://www.backstory.ai/author/chad-oconnor"
+    },
+    {
+      "url": "https://www.backstory.ai/author/chris-albro"
+    },
+    {
+      "url": "https://www.backstory.ai/author/chris-carrow"
+    },
+    {
+      "url": "https://www.backstory.ai/author/chris-etterman"
+    },
+    {
+      "url": "https://www.backstory.ai/author/danny-lai"
+    },
+    {
+      "url": "https://www.backstory.ai/author/elizabeth-hayes"
+    },
+    {
+      "url": "https://www.backstory.ai/author/george-kozlov"
+    },
+    {
+      "url": "https://www.backstory.ai/author/jamie-carney"
+    },
+    {
+      "url": "https://www.backstory.ai/author/jason-ambrose"
+    },
+    {
+      "url": "https://www.backstory.ai/author/jessica-denny"
+    },
+    {
+      "url": "https://www.backstory.ai/author/jillian-pedersen"
+    },
+    {
+      "url": "https://www.backstory.ai/author/john-ream"
+    },
+    {
+      "url": "https://www.backstory.ai/author/laura-palmer"
+    },
+    {
+      "url": "https://www.backstory.ai/author/mariah-petrovic"
+    },
+    {
+      "url": "https://www.backstory.ai/author/natalie-wolf"
+    },
+    {
+      "url": "https://www.backstory.ai/author/oleg"
+    },
+    {
+      "url": "https://www.backstory.ai/author/paige-sterling"
+    },
+    {
+      "url": "https://www.backstory.ai/author/richard-harris"
+    },
+    {
+      "url": "https://www.backstory.ai/author/scott-sirowy"
+    },
+    {
+      "url": "https://www.backstory.ai/author/sonya-subramaniam"
+    },
+    {
+      "url": "https://www.backstory.ai/author/spence-lee"
+    },
+    {
+      "url": "https://www.backstory.ai/author/stephanie-madsen"
+    },
+    {
+      "url": "https://www.backstory.ai/author/susan-zuzic"
+    },
+    {
+      "url": "https://www.backstory.ai/author/victor-oliveros"
+    },
+    {
+      "url": "https://www.backstory.ai/blog"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/12-month-ai-outlook"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/3-ways-to-bring-ai-to-the-sales-forefront"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/4-ways-to-ramp-sales-reps-faster"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/6-steps-to-ai-success"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/8-critical-questions-to-ask-when-evaluating-an-ai-vendor"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/a-dooly-alternative-purpose-built-for-reps-using-salesforce"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/account-planning"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ai-innovators-brian-goldstein-google"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ai-innovators-christine-heckart"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ai-innovators-clayton-smith-aws"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ai-innovators-michael-cingari-verizon"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ai-sales-data-foundation"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/aon-ibrahim-gokcen"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/automated-sales-activity-capture-for-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/backstory-ai-acquires-hero-research-and-introduces-a-new-embedded-salesforce-experience-to-take-b2b-sales-productivity-to-new-heights"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/backstory-ai-salesforce-delivering-insights-where-you-work"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/bant"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/bi-dashboards"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/built-for-how-executives-actually-operate"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/call-mapping"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/conversation-intelligence-software"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/conversational-intelligence-is-dead"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/crm-health-getting-fit-in-90-days"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/deal-desk"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/digital-transformation-trends"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/excel-sales-tracking-templates-for-reps-who-hate-salesforce-busywork"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/forrester-roi-wave-backstory-ai-named-strong-performer"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/gen-ai-is-magic-tech-democratizing-business-intelligence-danny-lange-google-cloud"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/google-mandiant-pen-testing"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/gtm-insider-are-you-turning-the-right-knobs-in-your-gtm-strategy"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/gtm-insider-july-2024"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/gtm-insider-my-framework-for-building-a-winning-sales-culture"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-agentic-collaboration-will-free-sellers-from-systems"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-to-develop-a-generative-ai-roadmap-your-organization-can-trust"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-to-develop-kpis"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-to-handle-price-objections"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-to-introduce-yourself-in-an-email-examples"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-to-use-data-to-put-an-end-to-sandbagging"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/how-you-can-address-seller-burnout"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/incentive-comp"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/increase-enterprises-market-share"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/increase-sales-productivity"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/inside-sales-vs-outside-sales"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/is-digital-selling-contributing-to-seller-burnout"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/llm-system-of-record-build-vs-buy"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/meddpicc"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/microsoft-ignite-2024-recap"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/oleg-rogynskyy-on-an-intentional-approach-to-life-and-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/pipeline-inspection-deal-risk-signals-revenue-intelligence"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/rapport-building-questions"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/relationship-management-guide"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/relationship-map"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/revenue-intelligence-market-size"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/revenue-intelligence-software-how-to-choose"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/revops-day-in-the-life-jamie-carney-backstory-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/saas-model-ai-agents"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-ai-data-context"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-call-coaching"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-call-recording"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-call-recording-software"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-discovery-questions"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-follow-up-email"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-pitch-examples"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-plan"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-productivity-metrics"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-rebuttals-for-objections"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-rep-dashboard"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-tracking"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/sales-training-ideas"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/salesforce-mcp-server"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/situation-search-deal-history-sales-intelligence"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/the-4-step-playbook-to-transform-your-team-into-ai-masters"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/the-pod-team-is-joining-backstory"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/the-rise-of-revops-is-centralized-revenue-operations-right-for-your-company"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/the-secret-to-printing-pipeline-intent-signals-paired-with-sales-engagement-for-no-account-left-behind"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/three-sales-organization-structures"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/tips-for-better-sales-calls"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/trade-show-follow-up-email-examples"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/two-ways-ai-can-help-realign-your-marketing-and-sales-teams"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/ukrainian-women-software-engineers"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/what-is-good-data-for-genai"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/what-is-revenue-intelligence"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/why-deals-stall-ai-sales-rep-performance"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/you-shouldnt-have-to-go-looking-for-your-answers"
+    },
+    {
+      "url": "https://www.backstory.ai/book-a-meeting"
+    },
+    {
+      "url": "https://www.backstory.ai/build-vs-buy"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/aidoc"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/amd"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/aveva"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/five9"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/lily-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/medical-device-manufacturers"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/mitel"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/octave"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/ping-identity"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/red-hat"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/seismic"
+    },
+    {
+      "url": "https://www.backstory.ai/case-studies/ttec"
+    },
+    {
+      "url": "https://www.backstory.ai/customers"
+    },
+    {
+      "url": "https://www.backstory.ai/customers/professional-services"
+    },
+    {
+      "url": "https://www.backstory.ai/deal-execution"
+    },
+    {
+      "url": "https://www.backstory.ai/events-webinars"
+    },
+    {
+      "url": "https://www.backstory.ai/events/build-vs-buy-the-framework-on-demand"
+    },
+    {
+      "url": "https://www.backstory.ai/events/hardest-forecasting-questions-answered"
+    },
+    {
+      "url": "https://www.backstory.ai/events/how-mitel-is-amplifying-sales"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-beamerys-gtm-strategy"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-competitor-conversations"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-creating-urgency-that-works"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-fixing-your-forecast-with-samantha-mckenna"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-forecasting-future"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-let-ai-remember-let-humans-relate"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-new-ai-security-threats-tactics"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-opportunity-management"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-pipeline-you-can-trust"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-revenue-leadership-in-an-ai-first-world"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-show-me-you-know-me"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-stop-toggling-start-selling"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-the-sales-shift"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-what-were-building-and-why-it-matters"
+    },
+    {
+      "url": "https://www.backstory.ai/events/on-demand-webinar-why-bad-information-is-behind-every-missed-number"
+    },
+    {
+      "url": "https://www.backstory.ai/events/your-ai-is-giving-three-teams-three-different-answers-on-demand"
+    },
+    {
+      "url": "https://www.backstory.ai/events/your-deal-doesnt-die-in-the-meeting"
+    },
+    {
+      "url": "https://www.backstory.ai/get-demo"
+    },
+    {
+      "url": "https://www.backstory.ai/insurance-brokerage"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/api-integration"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/challenges-of-integration"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/future-of-integration"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/integration-basics"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/integration-tools"
+    },
+    {
+      "url": "https://www.backstory.ai/jasons-corner"
+    },
+    {
+      "url": "https://www.backstory.ai/know-more"
+    },
+    {
+      "url": "https://www.backstory.ai/library/6-sales-forecasting-methods-compared-which-one-is-right-for-your-team"
+    },
+    {
+      "url": "https://www.backstory.ai/library/activity-data-and-forecast-accuracy-the-connection-most-teams-miss"
+    },
+    {
+      "url": "https://www.backstory.ai/library/ai-sales-forecasting-how-it-works-under-the-hood"
+    },
+    {
+      "url": "https://www.backstory.ai/library/buying-committee-coverage-how-to-map-and-manage-the-full-decision-team"
+    },
+    {
+      "url": "https://www.backstory.ai/library/champion-mapping-in-complex-deals"
+    },
+    {
+      "url": "https://www.backstory.ai/library/contact-coverage-in-enterprise-deals-why-it-matters-and-how-to-measure-it"
+    },
+    {
+      "url": "https://www.backstory.ai/library/conversational-intelligence-for-sales-coaching"
+    },
+    {
+      "url": "https://www.backstory.ai/library/crm-adoption-why-it-fails-and-what-actually-fixes-it"
+    },
+    {
+      "url": "https://www.backstory.ai/library/crm-data-accuracy-why-it-fails"
+    },
+    {
+      "url": "https://www.backstory.ai/library/crm-hygiene-best-practices-that-actually-work"
+    },
+    {
+      "url": "https://www.backstory.ai/library/customer-health-score-why-usage-data-isnt-the-whole-story-in-b2b"
+    },
+    {
+      "url": "https://www.backstory.ai/library/deal-risk-how-to-spot-it-early"
+    },
+    {
+      "url": "https://www.backstory.ai/library/deal-slippage-causes-warning-signs-and-how-to-prevent-it"
+    },
+    {
+      "url": "https://www.backstory.ai/library/economic-buyer-engagement-signals-what-to-track-and-why-it-matters"
+    },
+    {
+      "url": "https://www.backstory.ai/library/how-to-measure-crm-data-quality"
+    },
+    {
+      "url": "https://www.backstory.ai/library/manual-vs-automatic-activity-logging-whats-the-difference"
+    },
+    {
+      "url": "https://www.backstory.ai/library/multi-threading-in-enterprise-sales-why-it-matters-and-how-to-do-it"
+    },
+    {
+      "url": "https://www.backstory.ai/library/pipeline-coverage-ratio-explained"
+    },
+    {
+      "url": "https://www.backstory.ai/library/pipeline-health-faq-answers-to-the-questions-revenue-teams-actually-ask"
+    },
+    {
+      "url": "https://www.backstory.ai/library/pipeline-health-metrics"
+    },
+    {
+      "url": "https://www.backstory.ai/library/pipeline-inspection-vs-forecasting-understanding-the-difference"
+    },
+    {
+      "url": "https://www.backstory.ai/library/rep-time-on-selling-vs-admin-what-the-numbers-say"
+    },
+    {
+      "url": "https://www.backstory.ai/library/revenue-intelligence-tools-compared"
+    },
+    {
+      "url": "https://www.backstory.ai/library/sales-activity-metrics-that-actually-predict-revenue"
+    },
+    {
+      "url": "https://www.backstory.ai/library/sales-forecast-accuracy-benchmarks-what-good-actually-looks-like"
+    },
+    {
+      "url": "https://www.backstory.ai/library/sales-forecast-vs-sales-target-whats-the-difference-and-why-it-matters"
+    },
+    {
+      "url": "https://www.backstory.ai/library/sales-pipeline-inspection"
+    },
+    {
+      "url": "https://www.backstory.ai/library/sales-territory-mapping-coverage-that-holds-up-after-q1"
+    },
+    {
+      "url": "https://www.backstory.ai/library/stakeholder-mapping-tools-why-org-chart-software-goes-stale-by-friday"
+    },
+    {
+      "url": "https://www.backstory.ai/library/what-is-sales-pipeline-health"
+    },
+    {
+      "url": "https://www.backstory.ai/library/why-crm-based-forecasting-fails"
+    },
+    {
+      "url": "https://www.backstory.ai/newsletter"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/across-the-funnel-podcast-ep-193-mackenzie-smith"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/ai-agents-podcast-scaling-revenue-teams-with-ai-driven-gtm-data-jason-ambrose-backstory-ep12"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/ai-innovator-how-to-build-software-that-delivers-value-for-the-hybrid-workforce"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-appoints-former-asapp-leader-as-svp-of-customer-value-to-drive-outcomes-for-enterprise-customers"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-appoints-victor-chang-as-chief-information-security-officer-to-usher-in-global-security-for-its-ai-answers-platform"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-included-in-independent-evaluation-of-revenue-orchestration-platforms-for-b2b"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-launches-situation-search"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-named-a-challenger-in-the-2026-gartner-magic-quadrant-for-revenue-action-orchestration"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-named-a-major-player-in-the-idc-marketscape-worldwide-unified-revenue-orchestration-platforms-2026-vendor-assessment"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-names-former-hubspot-and-box-engineering-leader-shilpa-varma-as-cto"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-names-sam-branson-head-of-partnerships-to-accelerate-growth-through-strategic-alliances"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/backstory-uses-ai-to-bring-greater-accuracy-to-sales-forecasting"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/bens-bites-newsletter-thats-my-designer-claude"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/city-biz-backstory-names-victor-chang-ciso-as-ai-revenue-platform-expands-enterprise-security-infras"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/citybiz-backstory-appoints-former-asapp-executive-mackenzie-smith-as-svp-of-customer-value"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/cro-first-backstory-integrates-model-context-protocol-mcp-to-deliver-complete-revenue-intelligence-a"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/cro-first-backstory-launches-situation-search-ground-sales-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/cro-first-crofirsts-weekly-roundup-backstory-centerbook-arcana-analytics-trevipay-pdcflow-knownwell"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/cros-dont-need-ai-they-want-to-reach-answer-nirvana"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/deep-view-deepseek-v4-puts-frontier-labs-on-notice-again"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/destinationcrm-backstory-brings-model-context-protocol-mcp-integration"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/getting-new-value-today-from-your-crm-data"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/how-aveva-uses-backstory-to-optimize-its-sales-cycle"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/it-brief-usa-backstory-links-salesai-to-mcp-for-trusted-crm-data"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/itdigest-backstory-appoints-victor-chang-as-chief-information-security-officer"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/keep-goingthe-innovators-podcast-the-innovators-why-ai-still-needs-humans"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/looking-beyond-sales-productivity-in-planning"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/martech-edge-backstory-connects-salesai-platform-to-claude-copilot-and-chatgpt-via-mcp-to-fix-crms-d"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/martechcube-backstory-rebrands-as-backstory-to-transform-deal-insights"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/people-ai-becomes-backstory-redefining-how-revenue-teams-get-answers-about-their-deals"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/people-ai-brings-complete-revenue-intelligence-to-ai-workflows-through-model-context-protocol-mcp-integration"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/people-ai-recognized-in-the-2025-gartner-r-magic-quadrant-tm-for-revenue-action-orchestration"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/revenue-brew-sales-tech-check"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/revenue-leaders-have-never-had-the-answers-they-needed-that-is-about-to-change"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/rt-insights-real-time-analytics-news-for-the-week-ending-february-21"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/saastr-meet-the-leaders-of-the-agentic-crm-revolution-at-saastr-ai-annual-2026-may-12-14-in-sf-bay"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/saastr-saastr-ai-app-of-the-week-backstory-the-answer-platform-that-turns-your-sales-activity-data-i"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/salestechstar-backstory-becomes-backstory-redefining-how-revenue-teams-get-answers-about-their-deals"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/salestechstar-backstory-brings-complete-revenue-intelligence-to-ai-workflows-through-model-context-p"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/salestechstar-backstory-launches-situation-search"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/salestechstar-backstory-recognized-in-the-2025-gartner-magic-quadrant-for-revenue-action-orchestrati"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/salestechstar-episode-234-of-the-salesstar-podcast-evolving-standards-in-b2b-sales-and-marketing-fea"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/selling-power-linkedin-meet-backstoryai-the-ai-that-knows-every-deals-hidden-story"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/selling-power-youtube-meet-backstory-the-ai-that-knows-every-deals-hidden-story"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/sellingpower-stop-guessing-use-agentic-ai-to-drive-predictable-revenue"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/solutions-review-top-martech-news-from-the-week-of-february-20th-updates-from-seismic-amplitude-true"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/strategy-also-needs-the-backstory"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/tech-blog-writer-online-how-backstory-is-turning-sales-activity-into-answers-leaders-can-act-on"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/techstrongai-backstory-tackles-enterprise-ai-token-economics"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/the-ai-journal-the-next-competitive-moat-isnt-your-data-its-the-ai-you-build-to-serve-your-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/the-innovators-and-investors-podcast-scaling-revenue-intelligence-with-jason-ambrose-of-backstory"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/the-neuron-claude-beat-chatgpt-2-to-1"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/the-saas-model-was-built-for-humans-agents-dont-care"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/the-saas-model-was-built-for-humans-agents-dont-care-2"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/unicorn-builders-podcast-how-backstory-ai-sequenced-a-three-step-company-transformation-using-the-st"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/unicorn-marketers-podcast-compounding-momentum-why-1-beats-home-run-thinking"
+    },
+    {
+      "url": "https://www.backstory.ai/newsroom/what-20-years-in-sales-leadership-actually-teaches-you"
+    },
+    {
+      "url": "https://www.backstory.ai/people-ai-is-now-backstory"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/ai-powered-crm"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/how-it-works"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/6sense"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/microsoft"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/oracle"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/salesforce"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/slack"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/webex"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/winning-by-design"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/zoom"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/integrations/zoominfo"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/mcp"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/overview"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/partners-integrations"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/trust-security"
+    },
+    {
+      "url": "https://www.backstory.ai/platform/why-backstory"
+    },
+    {
+      "url": "https://www.backstory.ai/pricing"
+    },
+    {
+      "url": "https://www.backstory.ai/privacy"
+    },
+    {
+      "url": "https://www.backstory.ai/privacy-management"
+    },
+    {
+      "url": "https://www.backstory.ai/product/sub-processors"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/4-reasons-why-your-sales-methodology-is-failing-and-how-to-fix-it"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-keys-to-unlocking-accurate-sales-forecasts-in-fiscal-year-2023"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-predictions-sales-leaders-2026"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-signs-for-revops-that-the-sales-pipeline-needs-repair"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-steps-to-gtm-transformation-for-manufacturing"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-ways-marketing-can-use-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/5-ways-revops-can-create-a-high-performing-pipeline-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/7-keys-to-forecasting-accuracy"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/ai-revenue-intelligence-buyers-guide"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/build-and-unleash-a-high-performing-revops-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/building-the-next-gen-revenue-engine-for-marketing"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/building-the-next-gen-revenue-engine-for-operations"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/building-the-next-gen-revenue-engine-for-sales"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/drive-higher-sales-methodology-adoption-with-crm-native-tools"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/enable-effective-account-planning-and-tracking-in-your-crm"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/enterprise-ai-maturity-model"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-key-capabilities-for-more-effective-sales-planning"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-key-capabilities-to-prime-your-pipeline"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-steps-to-elevating-gtm-transformation-in-life-sciences"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-steps-to-producing-successful-gtm-transformation-in-manufacturing"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-warning-signs-your-crm-needs-a-health-check"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/five-warning-signs-your-crm-needs-some-fine-tuning"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/four-life-sciences-industry-trends-that-could-hurt-your-sales-targets"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/four-manufacturing-industry-trends-that-could-derail-your-sales-targets"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/fuel-your-crm-with-better-data-and-prepare-for-better-revenue-results"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/generative-ai-use-cases-for-sales-organizations"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/how-marketing-can-meaningfully-increase-pipeline-velocity-and-conversion"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/how-to-surface-hidden-pipeline-and-execute-laser-focused-abm-campaigns"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/infographic-3-ways-to-turn-marketing-and-sales-into-partners-in-pipeline-creation-using-ai"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/insurance-guide"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/intelligence-buyers-guide-direct"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/measure-the-performance-of-your-pipeline-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/measure-the-performance-of-your-sales-qualification-methodology"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/optimize-the-use-of-your-gtm-teams-with-ai-powered-data-and-automation"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/optimize-your-revenue-operations-and-pipeline-generation-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/proven-ways-to-align-marketing-with-sales-for-faster-stronger-pipeline"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/shape-the-future-of-territory-design-with-a-data-centric-approach"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/supercharge-your-pipeline-with-a-smarter-crm"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/the-keys-to-unleashing-gtm-transformation-in-life-sciences"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/three-hurdles-to-overcome-for-effective-sales-planning"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/three-obstacles-throttling-your-pipeline-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/three-steps-to-prepare-for-a-healthier-pipeline"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/top-five-ways-to-fine-tune-your-pipeline-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/top-warning-sign-your-pipeline-is-underprepared"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/top-warning-signs-for-revops-that-your-pipeline-needs-some-repair"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/unleash-your-pipelines-full-potential-with-engagement-dashboards"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/unlock-complete-visibility-across-multiple-crms"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/use-ai-to-turn-seller-insights-into-strategic-revenue-growth"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/validate-engagement-with-key-accounts-and-personas"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/validate-engagement-with-key-stakeholders-in-every-opportunity"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/whats-throttling-your-sales-pipeline-engine"
+    },
+    {
+      "url": "https://www.backstory.ai/resource/why-pipeline-cures-all"
+    },
+    {
+      "url": "https://www.backstory.ai/roi-calculator"
+    },
+    {
+      "url": "https://www.backstory.ai/role/executives"
+    },
+    {
+      "url": "https://www.backstory.ai/role/information-technology"
+    },
+    {
+      "url": "https://www.backstory.ai/role/marketing"
+    },
+    {
+      "url": "https://www.backstory.ai/role/revenue-operations"
+    },
+    {
+      "url": "https://www.backstory.ai/role/sales-leader"
+    },
+    {
+      "url": "https://www.backstory.ai/sales-activity-capture"
+    },
+    {
+      "url": "https://www.backstory.ai/sales-pipeline-health"
+    },
+    {
+      "url": "https://www.backstory.ai/sitemap"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/account-strategy"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/ai-lead-scoring-tools"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/ai-sales-coaching"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/customer-churn-prediction"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/opportunity-qualification"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/opportunity-scoring"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/pipeline-health"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/revenue-decisions"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/stakeholder-engagement-software"
+    },
+    {
+      "url": "https://www.backstory.ai/solutions/stakeholder-mapping-tool"
+    },
+    {
+      "url": "https://www.backstory.ai/subscription-management"
+    }
+  ]
+}

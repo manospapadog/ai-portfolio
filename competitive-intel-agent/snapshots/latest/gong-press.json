@@ -1,0 +1,22 @@
+{
+  "id": "gong-press",
+  "company": "Gong",
+  "kind": "links",
+  "url": "https://www.gong.io/press",
+  "final_url": "https://www.gong.io/press",
+  "fetched_at": "2026-10-29T14:22:46+00:00",
+  "items": [
+    {
+      "url": "https://www.gong.io/press/gong-named-a-leader-in-2026-gartner-magic-quadrant-for-revenue-action-orchestration-for-second-consecutive-year",
+      "title": "Gong Named a Leader in 2026 Gartner® Magic Quadrant™ for Revenue Action Orchestration for second consecutive year Gong is one of only four vendors named a Leader among the 13 evaluated and it was posi"
+    },
+    {
+      "url": "https://www.gong.io/press/gong-mission-callisto-sales-enrichment-layer",
+      "title": "Gong announces Mission Callisto, unveils sales enrichment layer for Revenue teams Today Gong announced Mission Callisto, its latest product launch, anchored by Gong Enrich, a new capability that expan"
+    },
+    {
+      "url": "https://www.gong.io/press/new-revenue-ai-innovation-celebrate-26",
+      "title": "From Data to Action: Gong Debuts New Revenue AI Innovation at Celebrate '26 Today Gong unveiled several major revenue AI announcements at Celebrate '26, its annual customer conference live from Las Ve"
+    }
+  ]
+}
