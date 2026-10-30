@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,6 +15,7 @@ client = Anthropic()  # reads ANTHROPIC_API_KEY from .env
 MODEL = "claude-sonnet-5"
 CHANGES_FILE = Path("changes.json")
 LATEST = Path("snapshots/latest")
+TEXT_CACHE = Path("snapshots/text")
 RUN_LOG = Path("runs.jsonl")
 DIGEST_DIR = Path("digests")
 BAD_REPLY_FILE = Path("last_bad_reply.txt")
@@ -55,7 +57,7 @@ def page_excerpt(url):
 
 
 def context_lines(source_id, added_lines):
-    path = LATEST / f"{source_id}.json"
+    path = TEXT_CACHE / f"{source_id}.json"
     if not path.exists():
         return ""
     lines = json.loads(path.read_text(encoding="utf-8")).get("lines", [])
@@ -68,7 +70,6 @@ def context_lines(source_id, added_lines):
                     seen.add(j)
                     picked.append(lines[j])
     return "\n".join(picked)
-
 
 def describe(c):
     t = c["type"]
@@ -84,7 +85,7 @@ def describe(c):
         return ("Lines added to the page:\n" + "\n".join(c["lines"][:15]) +
                 "\n\nSurrounding text on the page:\n" + context_lines(c["source_id"], c["lines"]))
     if t == "text_removed":
-        return "Lines removed from the page:\n" + "\n".join(c["lines"][:15])
+        return f"{c['total']} lines were removed from the page (their text is not stored)."
     return (f"A large part of the page changed (added {c['added']}, removed {c['removed']} lines). "
             "This is probably a redesign, and the content is not shown.")
 
@@ -146,8 +147,11 @@ def failed_sources():
 
 
 def label(c):
-    return c.get("title") or c.get("url") or c["source_id"]
-
+    url = c.get("url")
+    if url:
+        slug = re.sub(r"-\d+$", "", url.rstrip("/").split("/")[-1])
+        return slug.replace("-", " ").capitalize()
+    return c["source_id"]
 
 def render(date, summary, notable, other, unassessed, failures, skipped):
     out = [f"# Competitive intelligence digest: {date}", "", summary, ""]

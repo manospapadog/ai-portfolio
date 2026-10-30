@@ -187,3 +187,7 @@ def test_send_email_finds_todays_digest(tmp_path, monkeypatch):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     (tmp_path / f"{today}.md").write_text("today")
     assert send_email.todays_digest().name == f"{today}.md"
+
+def test_digest_label_uses_clean_url_slug():
+    c = {"url": "https://x.test/press/october-2026-release-notes-2865", "source_id": "s"}
+    assert digest.label(c) == "October 2026 release notes"
