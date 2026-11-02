@@ -4,7 +4,7 @@
   "kind": "sitemap",
   "url": "https://www.backstory.ai/sitemap.xml",
   "final_url": "https://www.backstory.ai/sitemap.xml",
-  "fetched_at": "2026-10-29T15:00:52+00:00",
+  "fetched_at": "2026-11-02T15:30:24+00:00",
   "is_index": false,
   "items": [
     {
@@ -477,21 +477,6 @@
     },
     {
       "url": "https://www.backstory.ai/insurance-brokerage"
-    },
-    {
-      "url": "https://www.backstory.ai/integration/api-integration"
-    },
-    {
-      "url": "https://www.backstory.ai/integration/challenges-of-integration"
-    },
-    {
-      "url": "https://www.backstory.ai/integration/future-of-integration"
-    },
-    {
-      "url": "https://www.backstory.ai/integration/integration-basics"
-    },
-    {
-      "url": "https://www.backstory.ai/integration/integration-tools"
     },
     {
       "url": "https://www.backstory.ai/jasons-corner"
