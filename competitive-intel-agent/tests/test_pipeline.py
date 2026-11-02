@@ -191,3 +191,17 @@ def test_send_email_finds_todays_digest(tmp_path, monkeypatch):
 def test_digest_label_uses_clean_url_slug():
     c = {"url": "https://x.test/press/october-2026-release-notes-2865", "source_id": "s"}
     assert digest.label(c) == "October 2026 release notes"
+
+def test_digest_finds_publication_date_in_page_text(monkeypatch):
+    monkeypatch.setitem(digest.PAGE_CACHE, "https://x.test/p", "Title June 24, 2026 SAN FRANCISCO body")
+    assert digest.published_date("https://x.test/p").isoformat() == "2026-06-24"
+
+
+def test_digest_old_pages_are_set_aside(monkeypatch):
+    dates = {"https://x.test/old": datetime(2026, 5, 12).date(),
+             "https://x.test/new": datetime(2026, 10, 30).date()}
+    monkeypatch.setattr(digest, "published_date", lambda url: dates.get(url))
+    changes = [{"type": "new_item", "url": u, "company": "C", "source_id": "s"} for u in dates]
+    fresh, stale = digest.split_stale(changes, datetime(2026, 11, 2).date())
+    assert [c["url"] for c in fresh] == ["https://x.test/new"]
+    assert [c["url"] for c in stale] == ["https://x.test/old"]

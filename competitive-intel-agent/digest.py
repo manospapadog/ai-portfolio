@@ -14,7 +14,6 @@ client = Anthropic()  # reads ANTHROPIC_API_KEY from .env
 
 MODEL = "claude-sonnet-5"
 CHANGES_FILE = Path("changes.json")
-LATEST = Path("snapshots/latest")
 TEXT_CACHE = Path("snapshots/text")
 RUN_LOG = Path("runs.jsonl")
 DIGEST_DIR = Path("digests")
@@ -22,9 +21,14 @@ BAD_REPLY_FILE = Path("last_bad_reply.txt")
 MAX_CHANGES = 40
 BATCH_SIZE = 10
 MIN_IMPORTANCE = 3
+MAX_AGE_DAYS = 45          # a page published longer ago than this is not news
 MAX_PAGE_CHARS = 12000
 CONTEXT_LINES = 3
 MAX_TOKENS = 8000
+
+MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
+DATE_RE = re.compile(rf"\b({MONTHS}) (\d{{1,2}}), (\d{{4}})\b")
+PAGE_CACHE = {}
 
 PROMPT_HEAD = """You are a competitive intelligence analyst for Pipelane, a company that sells AI pipeline visibility and deal-risk software to B2B SaaS revenue teams (RevOps leaders and VPs of Sales). The readers are Pipelane's commercial team.
 
@@ -35,6 +39,7 @@ Not notable: minor wording or layout edits; SEO or generic marketing blog posts;
 
 Rules:
 - Use only the text provided for each change. Do not use outside knowledge about these companies and do not guess.
+- Each new page shows the publication date found on it. Judge news by that date, not by the day the page was detected. If the date is unknown, say so in why_it_matters.
 - If the content is missing or too thin to judge, mark it not notable and say why.
 - Be specific and brief. Never invent numbers, dates or features.
 
@@ -48,12 +53,48 @@ Return ONLY valid JSON, with no markdown and no text around it, in exactly this 
 Include every change exactly once. Keep every text field under 40 words. Do not use double quotes inside text fields; use single quotes instead."""
 
 
+def page_text(url):
+    if url not in PAGE_CACHE:
+        try:
+            PAGE_CACHE[url] = " ".join(extract_page_text(http_get(url))["lines"])
+        except Exception:
+            PAGE_CACHE[url] = None
+    return PAGE_CACHE[url]
+
+
 def page_excerpt(url):
-    try:
-        lines = extract_page_text(http_get(url))["lines"]
-        return " ".join(lines)[:MAX_PAGE_CHARS] or "(page had no readable text)"
-    except Exception:
+    text = page_text(url)
+    if text is None:
         return "(content could not be fetched)"
+    return text[:MAX_PAGE_CHARS] or "(page had no readable text)"
+
+
+def published_date(url):
+    """The first 'Month D, YYYY' near the top of the page, or None."""
+    text = page_text(url)
+    if not text:
+        return None
+    m = DATE_RE.search(text[:4000])
+    if not m:
+        return None
+    try:
+        return datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", "%B %d %Y").date()
+    except ValueError:
+        return None
+
+
+def split_stale(changes, today):
+    """Set aside new pages whose own publication date is old. Returns (fresh, stale)."""
+    fresh, stale = [], []
+    for c in changes:
+        if c["type"] == "new_item":
+            d = published_date(c["url"])
+            c["published"] = d.isoformat() if d else None
+            if d and (today - d).days > MAX_AGE_DAYS:
+                stale.append(c)
+                continue
+        fresh.append(c)
+    return fresh, stale
 
 
 def context_lines(source_id, added_lines):
@@ -71,10 +112,13 @@ def context_lines(source_id, added_lines):
                     picked.append(lines[j])
     return "\n".join(picked)
 
+
 def describe(c):
     t = c["type"]
     if t == "new_item":
+        published = c.get("published") or "unknown"
         return (f"A new page appeared. Title: {c.get('title') or '(none)'}\nURL: {c['url']}\n"
+                f"Publication date on the page: {published}\n"
                 f"Page content: {page_excerpt(c['url'])}")
     if t == "removed_item":
         return f"A page or link disappeared. Title: {c.get('title') or '(none)'}\nURL: {c['url']}"
@@ -153,7 +197,8 @@ def label(c):
         return slug.replace("-", " ").capitalize()
     return c["source_id"]
 
-def render(date, summary, notable, other, unassessed, failures, skipped):
+
+def render(date, summary, notable, other, unassessed, failures, skipped, stale=None):
     out = [f"# Competitive intelligence digest: {date}", "", summary, ""]
     if notable:
         out += ["## Worth your attention", ""]
@@ -169,6 +214,12 @@ def render(date, summary, notable, other, unassessed, failures, skipped):
     if unassessed:
         out += ["## Not assessed by the model", ""]
         out += [f"- [{c['company']}] {label(c)[:80]}" for c in unassessed]
+        out.append("")
+    if stale:
+        out += [f"## Older pages newly listed ({len(stale)})", "",
+                "These appeared on a tracked source this run, but their own publication date is "
+                f"more than {MAX_AGE_DAYS} days old, so they are not treated as news:", ""]
+        out += [f"- [{c['company']}] {label(c)[:80]} (published {c['published']})" for c in stale]
         out.append("")
     if skipped:
         out += [f"_{skipped} further change(s) were not reviewed (limit of {MAX_CHANGES} per run)._", ""]
@@ -192,13 +243,17 @@ def main():
     if data.get("detected_at", "")[:10] != date:
         sys.exit("changes.json is not from today. Run diff.py first.")
 
-    changes = data["changes"][:MAX_CHANGES]
-    skipped = len(data["changes"]) - len(changes)
+    all_changes = data["changes"][:MAX_CHANGES]
+    skipped = len(data["changes"]) - len(all_changes)
     failures = failed_sources()
+    changes, stale = split_stale(all_changes, datetime.now(timezone.utc).date())
 
     if not changes:
-        digest = render(date, "No changes detected on any tracked source this week.",
-                        [], [], [], failures, 0)
+        summary = "No changes detected on any tracked source this week."
+        if stale:
+            summary = (f"No fresh news. {len(stale)} older page(s) newly listed on a "
+                       "tracked source were set aside.")
+        digest = render(date, summary, [], [], [], failures, skipped, stale)
     else:
         assessed = assess(changes)
         notable = sorted(
@@ -209,7 +264,9 @@ def main():
         summary = (f"{len(changes)} change(s) reviewed across "
                    f"{len({c['source_id'] for c in changes})} source(s); "
                    f"{len(notable)} worth your attention.")
-        digest = render(date, summary, notable, other, unassessed, failures, skipped)
+        if stale:
+            summary += f" {len(stale)} older page(s) were set aside."
+        digest = render(date, summary, notable, other, unassessed, failures, skipped, stale)
 
     DIGEST_DIR.mkdir(exist_ok=True)
     path = DIGEST_DIR / f"{date}.md"

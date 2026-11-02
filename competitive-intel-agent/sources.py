@@ -31,5 +31,6 @@ SOURCES = [
     {"id": "backstory-home", "company": "Backstory", "kind": "page_text",
      "url": "https://www.backstory.ai"},
     {"id": "backstory-sitemap", "company": "Backstory", "kind": "sitemap",
-     "url": "https://www.backstory.ai/sitemap.xml"},
+     "url": "https://www.backstory.ai/sitemap.xml",
+     "ignore_contains": ["/topic/", "/categories/", "/news-categories/"]},
 ]
