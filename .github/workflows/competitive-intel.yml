@@ -2,7 +2,8 @@ name: Competitive intelligence digest
 
 on:
   schedule:
-    - cron: "23 6 * * 1"   # Mondays 06:23 UTC (08:23 in Athens); an odd minute avoids the busy top of the hour
+    - cron: "23 6 * * 1"   # Mondays 06:23 UTC (08:23 in Athens)
+    - cron: "37 7 * * 2"   # TEMPORARY: Tuesday 07:37 UTC, to test that schedules fire
   workflow_dispatch:        # adds a manual "Run workflow" button
 
 permissions:
