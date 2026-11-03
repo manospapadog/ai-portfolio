@@ -4,8 +4,12 @@
   "kind": "links",
   "url": "https://community.salesloft.com/product-updates",
   "final_url": "https://community.salesloft.com/product-updates",
-  "fetched_at": "2026-11-02T16:07:17+00:00",
+  "fetched_at": "2026-11-03T15:26:28+00:00",
   "items": [
+    {
+      "url": "https://community.salesloft.com/product-updates/november-2026-release-notes-2899",
+      "title": "Nov 2, 2026 November 2026 Release Notes See what's new in Salesloft!Release Date: November 10, 2026In this article, we will highlight Salesloft's newest features and functionality. New features are re"
+    },
     {
       "url": "https://community.salesloft.com/product-updates/october-2026-release-notes-2865",
       "title": "Oct 7, 2026 October 2026 Release Notes See what's new in Salesloft!Release Date: October 14, 2026In this article, we'll highlight Salesloft's newest features and functionality. New features are releas"
@@ -101,10 +105,6 @@
     {
       "url": "https://community.salesloft.com/product-updates/august-2025-release-notes-437",
       "title": "Aug 12, 2025 August 2025 Release Notes In this article, we will highlight Salesloft's newest features and functionality.Feature Spotlight Rhythm &amp; Cadence Channels &amp; Conversations Platform, Da"
-    },
-    {
-      "url": "https://community.salesloft.com/product-updates/august-2025-new-feature-release-notes-2471",
-      "title": "Jul 23, 2025 August 2025 New Feature Release Notes Release Date: August 7, 2025 Please note the release date above. Your partnership in the evolution of the leading revenue platform is important to us"
     }
   ]
 }
