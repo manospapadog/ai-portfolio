@@ -35,21 +35,17 @@ def old_hashes(old):
 
 
 def diff_items(new, old, config):
+    # Only new items are reported. List pages show just the most recent entries,
+    # so older ones drop off as new ones arrive; that is not news.
     ignore = config.get("ignore_contains", [])
     old_urls = {i["url"] for i in old["items"]}
-    new_urls = {i["url"] for i in new["items"]}
     added = [i for i in new["items"]
              if i["url"] not in old_urls and not any(s in i["url"] for s in ignore)]
     changes = [{"type": "new_item", "url": i["url"], "title": i.get("title", "")}
                for i in added[:MAX_NEW_PER_SOURCE]]
     if len(added) > MAX_NEW_PER_SOURCE:
         changes.append({"type": "many_items", "count": len(added) - MAX_NEW_PER_SOURCE})
-    if new["kind"] != "sitemap":   # removed pages only matter for press and release lists
-        for i in old["items"]:
-            if i["url"] not in new_urls:
-                changes.append({"type": "removed_item", "url": i["url"], "title": i.get("title", "")})
     return changes
-
 
 def diff_text(new_lines, old_hash_list):
     old_set = set(old_hash_list)

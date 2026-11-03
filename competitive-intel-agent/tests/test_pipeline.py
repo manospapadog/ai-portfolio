@@ -205,3 +205,8 @@ def test_digest_old_pages_are_set_aside(monkeypatch):
     fresh, stale = digest.split_stale(changes, datetime(2026, 11, 2).date())
     assert [c["url"] for c in fresh] == ["https://x.test/new"]
     assert [c["url"] for c in stale] == ["https://x.test/old"]
+
+def test_diff_dropped_list_items_are_not_news():
+    new = items_snapshot("s", ["https://x.test/a"])
+    old = items_snapshot("s", ["https://x.test/a", "https://x.test/rolled-off"])
+    assert diff.diff_items(new, old, {}) == []
