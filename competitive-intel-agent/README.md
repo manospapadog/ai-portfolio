@@ -59,10 +59,12 @@ What the source check found:
 - **The importance threshold is enforced in code**, not left to the prompt, so a low-importance item cannot land in "Worth your attention".
 - **Noise is filtered at the source.** Sitemaps ignore taxonomy pages and report only new URLs, and each source's new items are capped.
 - **No competitor text is republished.** The repository stores a hash of each page line, not the line. The text itself is kept only for the current run.
+- **New pages are judged by their own publication date.** A page that newly appears in a tracked source can be months old, for example when a sitemap lists older press releases for the first time. The code reads the publication date from each new page and sets aside anything older than 45 days, in a separate "Older pages newly listed" section, so old announcements are not reported as news.
+- **Items that drop off a list page are not reported.** List pages only show the latest entries, so older items disappear as new ones arrive. Only new items count as changes.
 
 ## Tests
 
-19 automated tests, run before every scheduled job. They need no network and no API key. They cover change detection (new items, sitemap noise, redesign detection), the failed-source behaviour, the importance threshold, parsing of model replies, and the guards that stop a stale digest being sent or old data being compared.
+22 automated tests, run before every scheduled job. They need no network and no API key. They cover change detection (new items, sitemap noise, items dropping off list pages, redesign detection), the failed-source behaviour, the importance threshold, the old-page date check, parsing of model replies, and the guards that stop a stale digest being sent or old data being compared.
 
 ```
 python3 -m pytest -q
@@ -74,19 +76,22 @@ python3 -m pytest -q
 - **Whole-site sitemaps are noisy.** One competitor restructured its site and 37 taxonomy pages disappeared at once. Sitemaps now report only new pages, and a source can list URL patterns to ignore.
 - **I almost published other companies' text.** The first snapshot design stored full page text. I caught this in a pre-commit check and changed it to hashes.
 - **The model's claims held up under checking.** I compared the digest's statements about one announcement with the page itself, twice, and found no invented details. Reading the page was still necessary, because the model had only seen part of it the first time.
+- **True on the page did not mean new.** In the first real digest, all four items marked 'worth your attention' were Gong press releases dated between March and July 2026 that had only just appeared in a tracked source. What the digest said about each announcement was accurate, but the timing was wrong. The model had the publication date in front of it and nothing told it to use it, so the check now sits in the code, with a test that reproduces the case.
 - **The same item scored differently between runs.** One announcement was rated 4 out of 5, then 5 out of 5. The judgement was consistent but the number was not, which is why the threshold sits in code.
 
 ## Limitations
 
 - **Relevance has not been measured.** I have not yet labelled a set of past changes to score how often Claude agrees with a human. So far I have judged quality by reading digests.
-- **One simulated week, and a quiet real one.** There is not yet a track record of weekly runs.
+- **A short track record.** The first real digest exposed a flaw (old press releases reported as news), which is now fixed. There have been only a few weekly runs since, so noise over a longer period, such as a rotating homepage banner, is still untested.
 - **Importance scores are not stable** between runs of the same input.
 - **Summaries can repeat a vendor's own claims.** One digest called a company "the market leader", which came from its press release.
 - **Plain HTML only.** Pages that need JavaScript are out of scope.
 - **Text diffs are line based.** A rotating banner on a homepage could create noise over several weeks.
 - **Removed lines are counted, not shown**, because the text is not stored.
-- **Scheduled runs are best effort.** GitHub can delay them, and in rare cases drop them. The workflow commits its run log every week, which should stop GitHub pausing the schedule after 60 days of repository inactivity.
+- **Scheduled runs arrive late.** The first two scheduled runs started about 8 to 10 hours after their scheduled time, so the email lands in the evening, not the morning. GitHub documents that scheduled runs can be delayed and occasionally dropped. The workflow commits its run log every week, which should stop GitHub pausing the schedule after 60 days of repository inactivity, though I have not tested that.
 - **The repository is public**, so digests and snapshots are too. They contain only links, short titles and summaries of public pages.
+- **The same announcement can appear twice.** A press release and a blog post about the same news are reported as two items. One digest even labelled the second one a duplicate while still listing it under 'worth your attention'.
+- **The date check has blind spots.** It reads the first 'Month D, YYYY' date near the top of each new page, and only with full month names. Pages with no readable date, or with abbreviated dates like 'Jul 14, 2026', go to the model as before, and a page whose first date is not its publication date could be misjudged.
 
 ## If this were a real deployment
 
