@@ -19,20 +19,17 @@ Every project follows the same rules:
 |---|---|---|---|
 | 1 | **[Commercial Ops Copilot](project-1-copilot/)** | Ask questions about CRM sales data in plain English and get a summary, a chart, and the exact SQL that produced it. Includes a test suite that compares results to hand-written SQL. | Python, SQLite, Streamlit, Claude API |
 | 2 | **[Lead Desk](project-2-lead-desk/)** | n8n workflow that triages, researches, scores and routes inbound leads, then drafts personalised outreach for human approval. | n8n, Claude, Google Sheets, Gmail |
+| 3 | **[Competitive Intelligence Agent](competitive-intel-agent/)** | Scheduled agent that watches five competitors' public pages, detects what is new, asks Claude whether it matters to a revenue team, and emails a weekly digest with a source link for every claim. Fetching and change detection use no AI and are covered by automated tests. | Python, GitHub Actions, Claude API, pytest |
 | – | **[RAG starter](RAG-Project/)** | A first retrieval-augmented Q&A tool over a folder of documents. It answers only from retrieved sources, cites them, and says when it doesn't know. | Python, ChromaDB, sentence-transformers, Claude API |
 
 ### Highlights
 
 - **Copilot:** the test suite caught a silent join bug, where a product name was spelled differently across two tables. The query ran without error but under-reported one product series by about 3.5M. It was invisible without ground-truth tests. [Read how it was found and fixed →](project-1-copilot/#what-the-tests-caught)
 - **Lead Desk:** AI is used for exactly three jobs: website research, lead scoring and drafting. Everything around them (triage, routing, logging, approval) is deterministic, so every decision can be traced in the log. [See the workflow →](project-2-lead-desk/)
+- **Competitive Intelligence Agent:** the first real weekly digest reported four press releases as this week's news, when all four were months old. They had only just appeared in a tracked source. The cause was found and fixed in code, with a test that reproduces it. [Read what it taught me →](competitive-intel-agent/#what-building-it-taught-me)
 
 ---
 
-## Coming next
-
-- **Competitive Intelligence Agent:** a scheduled agent that tracks competitor news and pricing and sends a weekly digest (Python, GitHub Actions).
-
----
 
 ## About me
 
