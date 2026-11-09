@@ -4,7 +4,7 @@
   "kind": "sitemap",
   "url": "https://www.backstory.ai/sitemap.xml",
   "final_url": "https://www.backstory.ai/sitemap.xml",
-  "fetched_at": "2026-11-03T15:26:36+00:00",
+  "fetched_at": "2026-11-09T16:30:49+00:00",
   "is_index": false,
   "items": [
     {
@@ -21,87 +21,6 @@
     },
     {
       "url": "https://www.backstory.ai/ask-now"
-    },
-    {
-      "url": "https://www.backstory.ai/author/aman-sirohi"
-    },
-    {
-      "url": "https://www.backstory.ai/author/calli-millang"
-    },
-    {
-      "url": "https://www.backstory.ai/author/caroline-carney"
-    },
-    {
-      "url": "https://www.backstory.ai/author/chad-oconnor"
-    },
-    {
-      "url": "https://www.backstory.ai/author/chris-albro"
-    },
-    {
-      "url": "https://www.backstory.ai/author/chris-carrow"
-    },
-    {
-      "url": "https://www.backstory.ai/author/chris-etterman"
-    },
-    {
-      "url": "https://www.backstory.ai/author/danny-lai"
-    },
-    {
-      "url": "https://www.backstory.ai/author/elizabeth-hayes"
-    },
-    {
-      "url": "https://www.backstory.ai/author/george-kozlov"
-    },
-    {
-      "url": "https://www.backstory.ai/author/jamie-carney"
-    },
-    {
-      "url": "https://www.backstory.ai/author/jason-ambrose"
-    },
-    {
-      "url": "https://www.backstory.ai/author/jessica-denny"
-    },
-    {
-      "url": "https://www.backstory.ai/author/jillian-pedersen"
-    },
-    {
-      "url": "https://www.backstory.ai/author/john-ream"
-    },
-    {
-      "url": "https://www.backstory.ai/author/laura-palmer"
-    },
-    {
-      "url": "https://www.backstory.ai/author/mariah-petrovic"
-    },
-    {
-      "url": "https://www.backstory.ai/author/natalie-wolf"
-    },
-    {
-      "url": "https://www.backstory.ai/author/oleg"
-    },
-    {
-      "url": "https://www.backstory.ai/author/paige-sterling"
-    },
-    {
-      "url": "https://www.backstory.ai/author/richard-harris"
-    },
-    {
-      "url": "https://www.backstory.ai/author/scott-sirowy"
-    },
-    {
-      "url": "https://www.backstory.ai/author/sonya-subramaniam"
-    },
-    {
-      "url": "https://www.backstory.ai/author/spence-lee"
-    },
-    {
-      "url": "https://www.backstory.ai/author/stephanie-madsen"
-    },
-    {
-      "url": "https://www.backstory.ai/author/susan-zuzic"
-    },
-    {
-      "url": "https://www.backstory.ai/author/victor-oliveros"
     },
     {
       "url": "https://www.backstory.ai/blog"
@@ -344,9 +263,6 @@
       "url": "https://www.backstory.ai/blog/two-ways-ai-can-help-realign-your-marketing-and-sales-teams"
     },
     {
-      "url": "https://www.backstory.ai/blog/ukrainian-women-software-engineers"
-    },
-    {
       "url": "https://www.backstory.ai/blog/what-is-good-data-for-genai"
     },
     {
@@ -413,70 +329,76 @@
       "url": "https://www.backstory.ai/events-webinars"
     },
     {
-      "url": "https://www.backstory.ai/events/build-vs-buy-the-framework-on-demand"
-    },
-    {
-      "url": "https://www.backstory.ai/events/hardest-forecasting-questions-answered"
-    },
-    {
-      "url": "https://www.backstory.ai/events/how-mitel-is-amplifying-sales"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-beamerys-gtm-strategy"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-competitor-conversations"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-creating-urgency-that-works"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-fixing-your-forecast-with-samantha-mckenna"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-forecasting-future"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-let-ai-remember-let-humans-relate"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-new-ai-security-threats-tactics"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-opportunity-management"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-pipeline-you-can-trust"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-revenue-leadership-in-an-ai-first-world"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-show-me-you-know-me"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-stop-toggling-start-selling"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-the-sales-shift"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-what-were-building-and-why-it-matters"
-    },
-    {
-      "url": "https://www.backstory.ai/events/on-demand-webinar-why-bad-information-is-behind-every-missed-number"
-    },
-    {
-      "url": "https://www.backstory.ai/events/your-ai-is-giving-three-teams-three-different-answers-on-demand"
-    },
-    {
-      "url": "https://www.backstory.ai/events/your-deal-doesnt-die-in-the-meeting"
+      "url": "https://www.backstory.ai/events/who-actually-signs-in-december-closing-the-year-with-the-buyers-who-decide"
     },
     {
       "url": "https://www.backstory.ai/get-demo"
     },
     {
       "url": "https://www.backstory.ai/insurance-brokerage"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/chatgpt"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/claude"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/gemini"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/gong"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/google-meet"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/google-workspace"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/linkedin-sales-navigator"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/microsoft-365"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/microsoft-copilot"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/microsoft-dynamics"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/microsoft-exchange"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/microsoft-teams"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/n8n"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/okta"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/oracle-sales-cloud"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/outreach"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/salesforce"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/salesloft"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/slack"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/webex"
+    },
+    {
+      "url": "https://www.backstory.ai/integration/zoom"
     },
     {
       "url": "https://www.backstory.ai/jasons-corner"
@@ -572,9 +494,6 @@
       "url": "https://www.backstory.ai/library/stakeholder-mapping-tools-why-org-chart-software-goes-stale-by-friday"
     },
     {
-      "url": "https://www.backstory.ai/library/what-is-sales-pipeline-health"
-    },
-    {
       "url": "https://www.backstory.ai/library/why-crm-based-forecasting-fails"
     },
     {
@@ -620,9 +539,6 @@
       "url": "https://www.backstory.ai/newsroom/backstory-uses-ai-to-bring-greater-accuracy-to-sales-forecasting"
     },
     {
-      "url": "https://www.backstory.ai/newsroom/bens-bites-newsletter-thats-my-designer-claude"
-    },
-    {
       "url": "https://www.backstory.ai/newsroom/city-biz-backstory-names-victor-chang-ciso-as-ai-revenue-platform-expands-enterprise-security-infras"
     },
     {
@@ -635,13 +551,7 @@
       "url": "https://www.backstory.ai/newsroom/cro-first-backstory-launches-situation-search-ground-sales-ai"
     },
     {
-      "url": "https://www.backstory.ai/newsroom/cro-first-crofirsts-weekly-roundup-backstory-centerbook-arcana-analytics-trevipay-pdcflow-knownwell"
-    },
-    {
       "url": "https://www.backstory.ai/newsroom/cros-dont-need-ai-they-want-to-reach-answer-nirvana"
-    },
-    {
-      "url": "https://www.backstory.ai/newsroom/deep-view-deepseek-v4-puts-frontier-labs-on-notice-again"
     },
     {
       "url": "https://www.backstory.ai/newsroom/destinationcrm-backstory-brings-model-context-protocol-mcp-integration"
@@ -686,9 +596,6 @@
       "url": "https://www.backstory.ai/newsroom/revenue-leaders-have-never-had-the-answers-they-needed-that-is-about-to-change"
     },
     {
-      "url": "https://www.backstory.ai/newsroom/rt-insights-real-time-analytics-news-for-the-week-ending-february-21"
-    },
-    {
       "url": "https://www.backstory.ai/newsroom/saastr-meet-the-leaders-of-the-agentic-crm-revolution-at-saastr-ai-annual-2026-may-12-14-in-sf-bay"
     },
     {
@@ -719,9 +626,6 @@
       "url": "https://www.backstory.ai/newsroom/sellingpower-stop-guessing-use-agentic-ai-to-drive-predictable-revenue"
     },
     {
-      "url": "https://www.backstory.ai/newsroom/solutions-review-top-martech-news-from-the-week-of-february-20th-updates-from-seismic-amplitude-true"
-    },
-    {
       "url": "https://www.backstory.ai/newsroom/strategy-also-needs-the-backstory"
     },
     {
@@ -737,13 +641,7 @@
       "url": "https://www.backstory.ai/newsroom/the-innovators-and-investors-podcast-scaling-revenue-intelligence-with-jason-ambrose-of-backstory"
     },
     {
-      "url": "https://www.backstory.ai/newsroom/the-neuron-claude-beat-chatgpt-2-to-1"
-    },
-    {
       "url": "https://www.backstory.ai/newsroom/the-saas-model-was-built-for-humans-agents-dont-care"
-    },
-    {
-      "url": "https://www.backstory.ai/newsroom/the-saas-model-was-built-for-humans-agents-dont-care-2"
     },
     {
       "url": "https://www.backstory.ai/newsroom/unicorn-builders-podcast-how-backstory-ai-sequenced-a-three-step-company-transformation-using-the-st"
@@ -908,9 +806,6 @@
       "url": "https://www.backstory.ai/resource/insurance-guide"
     },
     {
-      "url": "https://www.backstory.ai/resource/intelligence-buyers-guide-direct"
-    },
-    {
       "url": "https://www.backstory.ai/resource/measure-the-performance-of-your-pipeline-engine"
     },
     {
@@ -1016,9 +911,6 @@
       "url": "https://www.backstory.ai/solutions/opportunity-qualification"
     },
     {
-      "url": "https://www.backstory.ai/solutions/opportunity-scoring"
-    },
-    {
       "url": "https://www.backstory.ai/solutions/pipeline-health"
     },
     {
@@ -1028,10 +920,10 @@
       "url": "https://www.backstory.ai/solutions/stakeholder-engagement-software"
     },
     {
-      "url": "https://www.backstory.ai/solutions/stakeholder-mapping-tool"
+      "url": "https://www.backstory.ai/subscription-management"
     },
     {
-      "url": "https://www.backstory.ai/subscription-management"
+      "url": "https://www.backstory.ai/ty-resources/on-demand-webinar-your-deal-doesnt-die-in-the-meeting-it-dies-in-between"
     }
   ]
 }
