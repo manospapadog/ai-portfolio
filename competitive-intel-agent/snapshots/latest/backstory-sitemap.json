@@ -4,7 +4,7 @@
   "kind": "sitemap",
   "url": "https://www.backstory.ai/sitemap.xml",
   "final_url": "https://www.backstory.ai/sitemap.xml",
-  "fetched_at": "2026-11-16T15:57:20+00:00",
+  "fetched_at": "2026-11-23T18:20:55+00:00",
   "is_index": false,
   "items": [
     {
@@ -72,6 +72,9 @@
     },
     {
       "url": "https://www.backstory.ai/blog/backstory-ai-salesforce-delivering-insights-where-you-work"
+    },
+    {
+      "url": "https://www.backstory.ai/blog/backstory-in-chatgpt"
     },
     {
       "url": "https://www.backstory.ai/blog/bant"
@@ -305,9 +308,6 @@
       "url": "https://www.backstory.ai/case-studies/ping-identity"
     },
     {
-      "url": "https://www.backstory.ai/case-studies/red-hat"
-    },
-    {
       "url": "https://www.backstory.ai/case-studies/seismic"
     },
     {
@@ -326,7 +326,7 @@
       "url": "https://www.backstory.ai/events-webinars"
     },
     {
-      "url": "https://www.backstory.ai/events/who-actually-signs-in-december-closing-the-year-with-the-buyers-who-decide"
+      "url": "https://www.backstory.ai/events/driving-urgency-in-q4"
     },
     {
       "url": "https://www.backstory.ai/get-demo"
